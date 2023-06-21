@@ -70,7 +70,7 @@ function App() {
   return (
     <>
       <div className="container" >
-        <h1>Challenge</h1>
+        <h1>Challenge Kosmos ReactJS</h1>
 
         <div id="parent">
           {loading ? 'Cargando...' : ''}

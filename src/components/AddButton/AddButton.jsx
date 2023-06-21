@@ -1,6 +1,6 @@
 const AddButton = ({ onClick }) => {
     return (
-      <button onClick={onClick}>Add Image</button>
+      <button onClick={onClick}>Agregar imagen</button>
     );
   };
   

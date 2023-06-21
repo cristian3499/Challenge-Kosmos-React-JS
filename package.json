@@ -2,14 +2,18 @@
   "name": "challenge-kosmos-reactjs",
   "private": true,
   "version": "0.0.0",
+  "homepage": "http://cristian3499.github.io/Challenge-Kosmos-React-JS",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-moveable": "^0.51.0"
