@@ -35,6 +35,6 @@ Abre (http://localhost:5173/) en tu navegador para ver el proyecto.
 - Se puede agregar nuevas imágenes.
 - Las imágenes pueden ser eliminadas.
 
-## Autores
+## Autor
 
 Cristian Hernandez Romero.
